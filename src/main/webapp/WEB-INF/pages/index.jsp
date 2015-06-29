@@ -1,134 +1,146 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<!--
+Astral by HTML5 UP
+html5up.net | @n33co
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport"    content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-
-    <title>Fluffy Liu</title>
-
-    <link rel="shortcut icon" href="/FluffyLiu/images/gt_favicon.png">
-
-    <!-- Bootstrap itself -->
-    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-
-    <!-- Custom styles -->
-    <link rel="stylesheet" href="/FluffyLiu/css/magister.css">
-
-    <!-- Fonts -->
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Wire+One' rel='stylesheet' type='text/css'>
+    <title>Astral by HTML5 UP</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 </head>
+<body>
 
-<!-- use "theme-invert" class on bright backgrounds, also try "text-shadows" class -->
-<body class="theme-invert">
+<!-- Wrapper-->
+<div id="wrapper">
 
-<nav class="mainmenu">
-    <div class="container">
-        <div class="dropdown">
-            <button type="button" class="navbar-toggle" data-toggle="dropdown"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-            <!-- <a data-toggle="dropdown" href="#">Dropdown trigger</a> -->
-            <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-                <li><a href="#head" class="active">Hello</a></li>
-                <li><a href="#about">About me</a></li>
-                <li><a href="#themes">My Mood</a></li>
-                <li><a href="#contact">Get in touch</a></li>
-            </ul>
-        </div>
+    <!-- Nav -->
+    <nav id="nav">
+        <a href="#me" class="icon fa-home active"><span>Home</span></a>
+        <a href="#work" class="icon fa-folder"><span>Work</span></a>
+        <a href="#contact" class="icon fa-envelope"><span>Contact</span></a>
+        <a href="#" class="icon fa-twitter"><span>Twitter</span></a>
+        <a href="#" class="icon fa-facebook"><span>Facebook</span></a>
+    </nav>
+
+    <!-- Main -->
+    <div id="main">
+
+        <!-- Me -->
+        <article id="me" class="panel">
+            <header>
+                <h1>Fluffy Liu</h1>
+                <p>Software Engineer in Cyberagent</p>
+            </header>
+            <a href="#work" class="jumplink pic">
+                <span class="arrow icon fa-chevron-right"><span>See my work</span></span>
+                <img src="images/me.jpg" alt="" />
+            </a>
+        </article>
+
+        <!-- Work -->
+        <article id="work" class="panel">
+            <header>
+                <h2>Work</h2>
+            </header>
+            <p>
+                Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit.
+                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+                luctus elit eget interdum.
+            </p>
+            <section>
+                <div class="row">
+                    <div class="4u 12u$(mobile)">
+                        <a href="#" class="image fit"><img src="images/pic01.jpg" alt=""></a>
+                    </div>
+                    <div class="4u 12u$(mobile)">
+                        <a href="#" class="image fit"><img src="images/pic02.jpg" alt=""></a>
+                    </div>
+                    <div class="4u$ 12u$(mobile)">
+                        <a href="#" class="image fit"><img src="images/pic03.jpg" alt=""></a>
+                    </div>
+                    <div class="4u 12u$(mobile)">
+                        <a href="#" class="image fit"><img src="images/pic04.jpg" alt=""></a>
+                    </div>
+                    <div class="4u 12u$(mobile)">
+                        <a href="#" class="image fit"><img src="images/pic05.jpg" alt=""></a>
+                    </div>
+                    <div class="4u$ 12u$(mobile)">
+                        <a href="#" class="image fit"><img src="images/pic06.jpg" alt=""></a>
+                    </div>
+                    <div class="4u 12u$(mobile)">
+                        <a href="#" class="image fit"><img src="images/pic07.jpg" alt=""></a>
+                    </div>
+                    <div class="4u 12u$(mobile)">
+                        <a href="#" class="image fit"><img src="images/pic08.jpg" alt=""></a>
+                    </div>
+                    <div class="4u$ 12u$(mobile)">
+                        <a href="#" class="image fit"><img src="images/pic09.jpg" alt=""></a>
+                    </div>
+                    <div class="4u 12u$(mobile)">
+                        <a href="#" class="image fit"><img src="images/pic10.jpg" alt=""></a>
+                    </div>
+                    <div class="4u 12u$(mobile)">
+                        <a href="#" class="image fit"><img src="images/pic11.jpg" alt=""></a>
+                    </div>
+                    <div class="4u$ 12u$(mobile)">
+                        <a href="#" class="image fit"><img src="images/pic12.jpg" alt=""></a>
+                    </div>
+                </div>
+            </section>
+        </article>
+
+        <!-- Contact -->
+        <article id="contact" class="panel">
+            <header>
+                <h2>Contact Me</h2>
+            </header>
+            <form action="#" method="post">
+                <div>
+                    <div class="row">
+                        <div class="6u 12u$(mobile)">
+                            <input type="text" name="name" placeholder="Name" />
+                        </div>
+                        <div class="6u$ 12u$(mobile)">
+                            <input type="text" name="email" placeholder="Email" />
+                        </div>
+                        <div class="12u$">
+                            <input type="text" name="subject" placeholder="Subject" />
+                        </div>
+                        <div class="12u$">
+                            <textarea name="message" placeholder="Message" rows="8"></textarea>
+                        </div>
+                        <div class="12u$">
+                            <input type="submit" value="Send Message" />
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </article>
+
     </div>
-</nav>
 
-
-<!-- Main (Home) section -->
-<section class="section" id="head">
-    <div class="container">
-
-        <div class="row">
-            <div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1 text-center">
-
-                <!-- Site Title, your name, HELLO msg, etc. -->
-                <h1 class="title">Everything will be Challenge</h1>
-                <h2 class="subtitle">Liu Songran</h2>
-
-                <!-- Short introductory (optional) -->
-                <h3 class="tagline">
-                    This is Fluffy Liu's HOMEPAGE<br>
-                    You can see some info here about me. Also you can get in touch with me, anytime and anywhere.
-                </h3>
-
-                <!-- Nice place to describe your site in a sentence or two -->
-                <p><a href="https://www.facebook.com/profile.php?id=100004231356009" class="btn btn-default btn-lg">Facebook</a></p>
-
-            </div> <!-- /col -->
-        </div> <!-- /row -->
-
+    <!-- Footer -->
+    <div id="footer">
+        <ul class="copyright">
+            <%--<li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>--%>
+        </ul>
     </div>
-</section>
 
-<!-- Second (About) section -->
-<section class="section" id="about">
-    <div class="container">
+</div>
 
-        <h2 class="text-center title">About me</h2>
-        <div class="row">
-            <div class="col-sm-4 col-sm-offset-2">
-                <h5><strong>Where do I come from<br></strong></h5>
-                <p>Well, I am living in Tokushima City, studying information system. Born in Henan, grow up in Hainan, learned in Dalian, Worked in Beijing. Now I'm in Tokushima, and next year will live in Tokyo.
-                </p>
-                <p>I'm going to work for <a href="https://www.cyberagent.co.jp/">cyberagent</a> as SE.</p>
-            </div>
-            <div class="col-sm-4">
-                <h5><strong>What the hell! --->>> It's OK.<br></strong></h5>
-                <p>
-                    What the hell! Why do not write it in JAVA?<br/>
-                    It's ok, Just Use The Language and Library You Like!<br/>
-                </p>
-                <p><video controls src='/FluffyLiu/videos/ryu_movie.mp4' width='650' height='350'/></p>
-            </div>
-        </div>
-    </div>
-</section>
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/skel.min.js"></script>
+<script src="assets/js/skel-viewport.min.js"></script>
+<script src="assets/js/util.js"></script>
+<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+<script src="assets/js/main.js"></script>
 
-<!-- Third (Works) section -->
-<section class="section" id="themes">
-    <div class="container">
-
-        <h2 class="text-center title">My moodborad</h2>
-        <p class="lead text-center">
-            <img src="/FluffyLiu/img/6.05.jpg" width="75%" />
-        </p>
-
-    </div>
-</section>
-
-<!-- Fourth (Contact) section -->
-<section class="section" id="contact">
-    <div class="container">
-
-        <h2 class="text-center title">Get in touch</h2>
-
-        <div class="row">
-            <div class="col-sm-8 col-sm-offset-2 text-center">
-                <p class="lead">Have questions about me, or want to do something with me?</p>
-                <p>Feel free to email me, or drop me a line in Twitter!</p>
-                <p><b>lb90518@gmail.com</b><br><br></p>
-                <ul class="list-inline list-social">
-                    <li><a href="https://www.facebook.com/profile.php?id=100004231356009" class="btn btn-link"><i class="fa fa-facebook fa-fw"></i> Fluffy Liu</a></li>
-                    <li><a href="https://github.com/lsr90518" class="btn btn-link"><i class="fa fa-github fa-fw"></i> lsr90518</a></li>
-                    <li><a href="http://linkedin/in/pozhilov" class="btn btn-link"><i class="fa fa-weibo fa-fw"></i> BaysianNet</a></li>
-                </ul>
-            </div>
-        </div>
-
-    </div>
-</section>
-
-
-<!-- Load js libs only when the page is loaded. -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-<script src="/FluffyLiu/js/modernizr.custom.72241.js"></script>
-<!-- Custom template scripts -->
-<script src="/FluffyLiu/js/magister.js"></script>
 </body>
 </html>
